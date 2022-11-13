@@ -313,6 +313,10 @@ template {
   transition: height 0.5s ease-in !important;
 }
 
+.hidden {
+  display: none !important;
+}
+
 .nav ul {
   display: flex;
   justify-content: flex-end;
@@ -324,7 +328,8 @@ template {
   padding: 0 1em;
 }
 
-.nav a, .nav-toggle {
+.nav a,
+.nav-toggle {
   color: #333;
 }
 
@@ -6517,7 +6522,12 @@ readers do not read off random characters that represent icons */
   padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Roboto Condensed", sans-serif;
 }
 
@@ -6527,7 +6537,8 @@ body {
   flex-direction: column;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -6543,12 +6554,14 @@ html, body {
   padding-top: 3px;
 }
 
-.header, .footer {
+.header,
+.footer {
   flex: 0 0 auto;
 }
 
 /*Header*/
-.header, .site-header {
+.header,
+.site-header {
   display: flex;
   justify-content: space-between;
   background-color: #485460;
@@ -6559,7 +6572,8 @@ html, body {
 }
 
 /*Title*/
-.title, .logo-img {
+.title,
+.logo-img {
   padding: 1em 1em 1em 0;
   max-width: 180px;
 }
@@ -6585,7 +6599,7 @@ html, body {
   max-width: 1200px;
   padding: 0 2.2em;
   width: 100%;
-  color: papayawhip;
+  color: #ffefd5;
 }
 
 .social a {
@@ -6603,13 +6617,22 @@ body {
   color: #444;
 }
 
-p, td, th, li, dd {
+p,
+td,
+th,
+li,
+dd {
   text-align: justify;
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-bottom: 0.6em;
   font-weight: bold;
 }
