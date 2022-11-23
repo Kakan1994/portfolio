@@ -1,0 +1,134 @@
+/** Technologies */
+
+.two-column-main {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    background: $background-alternative-color;
+    color: $font-color;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 1em;
+    width: 100%;
+    flex: 1 0 auto;
+    padding-top: 3px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 5;
+    padding: 0;
+}
+
+.side-column {
+    font-size: 18px;
+    border-left: 2px solid $font-color;
+    padding-left: 1em;
+}
+
+.side-column p {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.tech {
+    grid-column: span 3;
+}
+
+.tech-container {
+    display: grid;
+    gap: 1em 1em;
+}
+
+.tech-container h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.active-tech {
+    font-weight: bold;
+}
+
+.tech-box {
+    border-radius: 10px;
+    font-size: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $background-color;
+    height: 100px;
+}
+
+.tech-box:hover {
+    background-color: $font-color;
+}
+
+.tech-box a {
+    text-decoration: none;
+    color: $font-alternative-color;
+}
+
+.side-column a {
+    color: $font-color;
+}
+
+.tech-box-header {
+    font-size: 64px;
+    font-weight: bold;
+    text-decoration: underline;
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.twospan {
+    grid-column: span 2;
+}
+
+.threespan {
+    grid-column: span 3;
+}
+
+@media (max-width: 767px) {
+    .two-column-main {
+        grid-template-columns: 1fr;
+    }
+
+    .tech-container {
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+    }
+
+    .tech-box-header {
+        grid-column: span 1;
+    }
+    
+    .tech-box-header h1 {
+        font-size: 36px;
+    }
+
+    .tech-box {
+        font-size: 24px;
+    }
+
+    .tech-container {
+        grid-template-columns: 1fr;
+    }
+
+    .twospan {
+        grid-column: span 1;
+    }
+
+    .threespan {
+        grid-column: span 1;
+    }
+
+    .side-column {
+        /*Hide it*/
+        display: none;
+    }
+}
