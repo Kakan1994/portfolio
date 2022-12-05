@@ -1,0 +1,155 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables-light';
+@import 'technologies';
+@import 'analys';
+@import 'mobile-menu';
+@import 'blockquotes';
+@import 'code';
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Condensed&display=swap');
+
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background-color: $background-color;
+    display: flex;
+    flex-direction: column;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.jag {
+    width: 40%;
+}
+
+.main {
+    /*Center the main content*/
+    background: $background-alternative-color;
+    color: $font-color;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 1em;
+    width: 100%;
+    flex: 1 0 auto;
+    padding-top: 3px;
+}
+
+.header,
+.footer {
+    flex: 0 0 auto;
+}
+
+/*Header*/
+
+.header,
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: $header-background-color;
+
+    a,
+    h1,
+    p {
+        color: $accent-color;
+        // text-decoration: none;
+    }
+}
+
+.header {
+    border-bottom: 1px solid $accent-color;
+}
+
+/*Title*/
+
+.title,
+.logo-img {
+    padding: 1em 1em 1em 0;
+    max-width: 180px;
+}
+
+.title * {
+    color: $font-color;
+}
+
+.title p {
+    font-style: italic;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid $accent-color;
+    background: $footer-background-color;
+}
+
+
+
+.footer-text {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 2.2em;
+    width: 100%;
+    color: $font-color;
+}
+
+.social a {
+    color: $font-color;
+    text-decoration: none;
+}
+
+.footer .social {
+    font-size: 2rem;
+}
+
+/* Typografy */
+
+body {
+    line-height: 1.5rem;
+    color: #444;
+}
+
+p,
+td,
+th,
+li,
+dd {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0.6em;
+    font-weight: bold;
+}

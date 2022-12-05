@@ -16,4 +16,4 @@ Datorer och teknik har varit mitt stora intresse så länge jag kan minnas så t
 
 Förutom det så gillar jag och spela brädspel, laga mat och bara hänga med kompisar.
 
-<img src="assets/img/jag.jpg" width="40%" alt="Bild på mig">
+<img class="jag" src="assets/img/jag.jpg" width="40%" alt="Bild på mig">

@@ -1,0 +1,70 @@
+.analysmain {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.analys-h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 64px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.analysis-box {
+    justify-self: center;
+    font-size: 48px;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+
+
+    h2 {
+        left: 50%;
+    }
+
+    a {
+        text-align: center;
+        color: $font-color;
+        text-decoration: none;
+    }
+
+    img {
+        margin-top: 25px;
+        width: 100%;
+    }
+}
+
+img {
+    width: 100%;
+}
+
+.analys {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.sidor {
+    border: 1px solid #000;
+    box-shadow: 0 0 10px #000;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+figure {
+    margin: 20px;
+    padding: 10px;
+}
+
+table {
+    margin: 0 auto;
+}
+
